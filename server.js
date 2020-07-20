@@ -12,7 +12,7 @@ server.use(body_parser.json());
 
 server.use(cors());
 
-const port = 4000;
+const port = 8080;
 
 // << db setup >>
 const db = require("./db");
